@@ -2,7 +2,7 @@
 
 ## Why?
 
-This worker will allow you to use Logpush with Logtail. Logpush gzips the request body for the HTTP destination and Logtail does not accept gzipped content, this worker will decompress and send to in.logtail.com. More info on this
+This worker will allow you to use Logpush with Logtail. Logpush gzips the request body for the HTTP destination and Logtail does not accept gzipped content, this worker will decompress and send to in.logtail.com. More info in [this post](https://medium.com/@RhinosaurRyan_67412/cloudflare-workers-tracing-with-logtail-49bac43b12d).
 
 ## Prerequisites
 
